@@ -1,0 +1,9 @@
+{
+  "name": "texture",
+  "description": "CreatedAt and updatedAt timestamps for collections",
+  "homepage": "https://github.com/subhog/meteor-timestamp",
+  "author": "Hubert Orlik Grzesik, hubert@orlikarnia.com",
+  "version": "0.1.0",
+  "git": "https://github.com/subhog/meteor-timestamp.git",
+  "packages": {}
+}
