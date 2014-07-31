@@ -9,7 +9,8 @@ useTimestampsFor = function(collection) {
       return false;
     },
     update: function(userId, doc, fields, modifier) {
-      doc.updatedAt = new Date().getTime();
+      modifier.$set = modifier.$set || {}
+      modifier.$set.updatedAt = new Date().getTime();
       return false;
     },
   });
